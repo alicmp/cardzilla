@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/general">
+
+        <ListPreference
+            android:key="daily_goal_preference"
+            android:summary="%s"
+            android:title="@string/title_list_daily_goal"
+            android:dialogTitle="@string/dialog_title_list_daily_goal"
+            android:entries="@array/entries_list_preference_daily_goal"
+            android:entryValues="@array/entry_values_list_preference_daily_goal"
+            android:defaultValue="@string/pref_daily_goal_default"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

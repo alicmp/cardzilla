@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".FullScreenImageActivity">
+    <item
+        android:id="@+id/action_remove_image"
+        android:icon="@drawable/ic_clear_black_24dp"
+        android:title="@string/action_remove_image"
+        app:showAsAction="ifRoom"/>
+</menu>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="accent">#FFC400</color>
+    <color name="primary_dark">#558B2F</color>
+    <color name="primary_light">#9CCC65</color>
+    <color name="primary">#7CB342</color>
+
+    <color name="colorHighlight">#B6B6B6</color>
+
+    <color name="list_item_divider">#19000000</color>
+
+    <color name="activity_bg_color">#FFFFFF</color>
+
+    <color name="backpack_list_item_percent">#80424242</color>
+
+    <color name="text_color">#B3000000</color>
+
+    <color name="secondary_text">#727272</color>
+
+    <color name="highlight_new_word">#20424242</color>
+
+    <color name="medium_grey">#9E9E9E</color>
+
+    <color name="md_btn_selected">#33969696</color>
+
+    <color name="txt_body">#99000000</color>
+
+</resources>

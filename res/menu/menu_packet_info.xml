@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="net.alicmp.android.flashcard.PackageInfoActivity">
+    <item
+        android:id="@+id/action_rename_packet"
+        android:orderInCategory="100"
+        android:title="@string/action_rename_packet"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_remove_packet"
+        android:orderInCategory="100"
+        android:title="@string/action_remove_packet"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_reset_flashcard"
+        android:orderInCategory="100"
+        android:title="@string/action_reset_flashcard"
+        app:showAsAction="never" />
+</menu>

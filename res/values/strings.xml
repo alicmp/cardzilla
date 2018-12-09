@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">CardZilla</string>
+
+    <!-- actions -->
+    <string name="action_reset_flashcard">Reset reading history</string>
+    <string name="action_add_card">Add Card</string>
+    <string name="action_remove_image">remove Image</string>
+    <string name="action_save">Save</string>
+    <string name="action_rename_packet">Rename packet</string>
+    <string name="action_remove_packet">Remove packet</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_create_card">Create Card</string>
+
+    <!-- dialogs text -->
+    <string name="dialog_txt_rmv_packet_title">Remove packet?</string>
+    <string name="dialog_txt_rmv_packet_msg">If you remove this packet you permanently loose all it\'s data. Be careful what you wish for.</string>
+    <string name="dialog_txt_rmv_packet_pos_btn">REMOVE</string>
+    <string name="dialog_txt_neg_btn">CANCEL</string>
+    <string name="dialog_txt_reset_packet_title">Reset reading history?</string>
+    <string name="dialog_txt_reset_packet_msg">If you reset reading history all your reading records permanently remove, as if you\'ve never read this packet. Be careful what you wish for.</string>
+    <string name="dialog_txt_reset_packet_pos_btn">RESET</string>
+    <string name="dialog_txt_rename_packet_pos_btn">RENAME</string>
+
+    <!-- activity title -->
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_study"></string>
+    <string name="title_activity_review"></string>
+    <string name="title_activity_add_packet">Create New Packet</string>
+    <string name="title_dialog_edit_card">Edit Card</string>
+    <string name="title_activity_add_edit_card">Add Edit Card</string>
+    <string name="title_full_screen_image_activity">Image</string>
+    
+    <!-- toast text -->
+    <string name="toast_txt_packet_is_empty">Packet is empty, first add new cards.</string>
+    <string name="toast_txt_not_study_time">"It's not time to study, if you want you can review cards instead."</string>
+
+    <string name="hint_packet_name">packet title</string>
+    <string name="title_list_daily_goal">Daily Goal</string>
+    <string name="dialog_title_list_daily_goal">Daily Goal</string>
+    <string name="settings_activity_title">Settings</string>
+    <string name="daily_goal">Daily Goal</string>
+    <string name="general">General</string>
+    <string name="pref_daily_goal_default">Regular</string>
+
+    <string-array name="navigation_drawer_item">
+        <item>Backpack</item>
+        <item>Setting</item>
+        <item>About</item>
+    </string-array>
+
+    <string-array name="entries_list_preference_daily_goal">
+        <item>Casual (2 new cards a day)</item>
+        <item>Regular (5 new cards a day)</item>
+        <item>Serious (10 new cards a day)</item>
+    </string-array>
+
+    <string-array name="entry_values_list_preference_daily_goal">
+        <item>Casual</item>
+        <item>Regular</item>
+        <item>Serious</item>
+    </string-array>
+
+    <string name="about_description">
+        This application is a personal project which tends to help you learn and memorize
+        more efficiently. I combined leitner system with magic of smart phones,
+        so you can learn anywhere and anytime. Using the app is fairly simple,
+        just create some flashcards. Application schedules your study and reminds
+        you whenever it\'s time to study again. plain and simple! I hope you find it helpful.
+    </string>
+
+    <string name="notification_title">
+        Study Time
+    </string>
+
+    <string name="notification_text">
+        It\'s time to study, Take a moment now to learn some new cards!
+    </string>
+
+    <string name="about_activity_title">About</string>
+    <string name="tell_friends">Tell Your Friends</string>
+    <string name="result_title">WELL DONE (ツ)</string>
+    <string name="backpack_empty_state_text">No packets added, create new packet by tapping the + button.</string>
+    <string name="backpack_empty_state_title">No packets</string>
+    <string name="backpack_empty_state_emoticon">¯\\_(ツ)_/¯</string>
+    <string name="add_edit_empty_state_text">No cards added, create new card by tapping the + button.</string>
+    <string name="add_edit_empty_state_title">No Cards</string>
+
+</resources>

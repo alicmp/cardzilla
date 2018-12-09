@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddPacketDialog">
+
+    <EditText
+        android:id="@+id/et_packet_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="20dp"
+        android:lines="1"
+        android:maxLines="1"
+        android:inputType="textCapSentences"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:hint="@string/hint_packet_name" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp">
+        <Button
+            android:id="@+id/bt_neg"
+            android:minWidth="64dp"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="CANCEL"
+            style="?android:attr/borderlessButtonStyle"
+            android:textColor="@color/primary"/>
+        <Button
+            android:id="@+id/bt_pos"
+            android:minWidth="64dp"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="CREATE"
+            style="?android:attr/borderlessButtonStyle"
+            android:textColor="@color/primary"/>
+    </LinearLayout>
+
+</LinearLayout>
